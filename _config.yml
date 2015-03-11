@@ -1,0 +1,13 @@
+# Site settings
+title: Coinomi
+email: 
+description: "Next generation cryptocurrency bank"
+baseurl: ""
+url: "http://coinomi.com"
+
+# Build settings
+markdown: kramdown
+permalink: pretty
+
+# Less
+lessc: /usr/bin/env lessc
