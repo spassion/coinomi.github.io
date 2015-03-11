@@ -45,12 +45,10 @@ body {
   text-align: center;
 }
 
-.donations {
-  li img {
-    margin: 0 10px;
-    height: 1em;
-    width: auto;
-  }
+.donations img {
+    margin-top: 2px;
+    height: 25px;
+    width: 25px;
 }
 
 
