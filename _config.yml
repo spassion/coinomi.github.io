@@ -6,8 +6,5 @@ baseurl: ""
 url: "http://coinomi.com"
 
 # Build settings
-markdown: kramdown
+markdown: redcarpet
 permalink: pretty
-
-# Less
-lessc: /usr/bin/env lessc
