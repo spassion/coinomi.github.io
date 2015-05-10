@@ -1,9 +1,10 @@
 # Site settings
 title: Coinomi
 email: 
-description: "Next generation cryptocurrency bank"
+description: "Secure, lightweight, open-source, universal HD wallet for Bitcoin and other Crypto-Currencies"
 baseurl: ""
-url: "http://coinomi.com"
+url: https://coinomi.com
+enforce_ssl: coinomi.com
 
 # Build settings
 markdown: redcarpet
