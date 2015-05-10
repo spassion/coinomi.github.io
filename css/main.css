@@ -7,7 +7,8 @@ body {
   text-align: center;
 }
 
-@media (max-width: 400px) {
+/* Change when updating the hero image to match image size + 20px */
+@media (max-width: 657px) {
   .hero {
     width: 100%;
     height: auto;
@@ -43,7 +44,6 @@ body {
   text-align: center;
 }
 
-
 .resource {
   width: auto;
   display: block;
@@ -57,32 +57,35 @@ body {
 } */
 
 .member {
-    background: none repeat scroll 0 0 rgba(255, 255, 255, 0.08);
-    border-radius: 4px;
-    padding: 35px 40px 25px;
-    text-align: center;
+  background: none repeat scroll 0 0 rgba(255, 255, 255, 0.08);
+  border-radius: 4px;
+  padding: 35px 40px 25px;
+  text-align: center;
 }
 
 .member-avatar {
-    border: 10px solid #428bca;
-    border-radius: 50%;
-    display: inline-block;
-    margin: 0 0 20px;
-
+  border: 10px solid #428bca;
+  border-radius: 50%;
+  display: inline-block;
+  margin: 0 0 20px;
 }
 
 .member-name {
-    font-size: 17px;
-    font-weight: 600;
-    letter-spacing: 0.04em;
-    margin: 0;
-    text-transform: uppercase;
+  font-size: 17px;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  margin: 0;
+  text-transform: uppercase;
 }
 
 .member-position {
-    font-size: 17px;
-    font-weight: 300;
-    margin: 0;
+  font-size: 17px;
+  font-weight: 300;
+  margin: 0;
+}
+
+.user-contact-form-submit {
+  text-align: right;
 }
 
 /*
@@ -98,21 +101,38 @@ body {
 }
 
 
-
-// TODO put in separate file
-
 .cnm-color1 {
-  color: #03bd9c;
+  color: #79AB5D;
 }
 
 .cnm-color2 {
-  color: #ce2022;
+  color: #F59226;
 }
 
 .cnm-color3 {
-  color: #faa020;
+  color: #729AEE;
 }
 
 .cnm-color4 {
-  color: #6fc6f1;
+  color: #F2D453;
+}
+
+.cnm-color5 {
+  color: #73C7EF;
+}
+
+.cnm-color6 {
+  color: #DC3916;
+}
+
+.cnm-color7 {
+  color: #658FA1;
+}
+
+.cnm-color8 {
+  color: #4FBC9C;
+}
+
+.cnm-color9 {
+  color: #F8BF2F;
 }
