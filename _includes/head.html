@@ -1,21 +1,24 @@
 <head>
+<script type="text/javascript">
+    var host = "coinomi.com";
+    if ((host == window.location.host) && (window.location.protocol != "https:"))
+        window.location.protocol = "https";
+</script>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="{{ site.description }}">
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
-
   <link rel="shortcut icon" href="{{ '/favicon.ico' | prepend: site.baseurl }}" />
   <link rel="icon" type="image/x-icon" href="{{ '/favicon.ico' | prepend: site.baseurl }}" />
 
-  <meta property="og:image" content="img/icon.png" />
-  <meta property="og:title" content="Coinomi - Crypto currencies made easy" />
-  <meta property="og:description" content="Coinomi is a service that lets you simplify your economy affairs, manage your digital cash, send money to any person and transfer value around the world with low fees. Supports many coins like Bitcoin, Dogecoin and Litecoin" />
+  <meta property="og:image" content="https://coinomi.com/img/icon.png" />
+  <meta property="og:title" content="Coinomi - Secure, lightweight, open-source, universal HD wallet" />
+  <meta property="og:description" content="Coinomi is a secure, lightweight, open-source, universal HD wallet for Bitcoin and other Crypto-Currencies." />
 
   <!-- Bootstrap -->
   <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
-
   <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
 
   <!-- Custom CSS -->
