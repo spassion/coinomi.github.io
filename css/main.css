@@ -7,8 +7,15 @@ body {
   text-align: center;
 }
 
+@media (max-width: 420px) {
+  .coinomi-logo {
+    width: 100%;
+    height: auto;
+  }
+}
+
 /* Change when updating the hero image to match image size + 20px */
-@media (max-width: 657px) {
+@media (max-width: 680px) {
   .hero {
     width: 100%;
     height: auto;
